@@ -103,7 +103,7 @@ export default function MonorepoGuide() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <div className="border-b bg-black border-border bg-card sticky top-0 z-50">
+      <div className="border-b bg-black text-white border-border bg-card sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-6 py-4 flex items-center gap-3">
           <BookOpen size={24} className="text-primary" />
           <h1 className="text-xl font-bold">Monorepo Setup Guide</h1>
